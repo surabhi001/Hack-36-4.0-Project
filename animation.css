@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 23px;
+    color: rgb(207, 193, 193);
+}
+header{
+    background-image: url(/animation.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(/animation.jpg);
+    height: max-content;
+    
+    background-size: cover;
+   background-attachment: fixed;
+}
+.navsection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, #a9c3c9 80%, #a9c3c9 20%);
+}
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#8d98e3 40%, #854fee 60%);
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    animation: aagepiche 2s linear infinite;
+    animation-direction: alternate;
+}@keyframes aagepiche{
+    from{
+        padding-left: 40px;
+    }to{
+        padding-right: 40px;
+    }
+}
+nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    position: relative;
+    font-size: 23px;
+}
+nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #4458dc;
+    transition: all 0.4s linear;
+}
+nav a:hover:before{
+    width: 100%;}
+    main{
+        height: 80vh;
+        display: flex;
+    justify-content: space-around;
+    align-items: center;}
+    h1{
+        font-size: 40px;
+        margin-left: 40px;
+    }
+    p{
+        margin: 15px;
+        margin-right: 40%;
+        margin-left: 45px;
+    }
+    .lists li{
+        list-style-type: square;
+        margin-left: 60px;
+    }
+    .courses ul li{
+     list-style-type: square;
+     margin-left:60px ;
+
+    }
+    .courses .diffcourse{
+        margin-left: 45px;
+        margin-right: 40%;
+    }
+    .CandJ{
+        list-style-type: square;
+        margin-left: 60px;
+    }
+    
+    
