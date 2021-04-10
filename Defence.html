@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Defence</title>
+	<style type="text/css">
+		h1{
+			font-size: 90px;
+			text-align: center;
+			font-family: Garamond, sans-serif;
+			color:white;
+			text-shadow:3px 3px 5px green;
+		}
+		body{
+			background-image: url(image/INA.jpg);
+			background-position: center;
+			background-size: cover;
+			margin-right: 80px;
+				margin-left: 80px;
+
+		}
+		p.d{
+			padding-right: 400px;
+			text-align: left;
+			font-family: times new roman,serif;
+			font-size: 125%;
+			color:white;
+		}
+			
+		
+		p.a{
+			font-size: 125%;
+			font-family: Times new roman, serif;
+			text-align: justify;
+			color:white;
+
+		}
+		h2{
+			font-size: 32px;
+			text-align: left;
+			font-family: Garamond, serif;
+			color:white;
+			text-shadow: 3px 2px 3px green;
+
+		}
+		ol{
+			list-style-type: lower-alpha;
+			color: white;
+
+		}
+		li{
+			text-align: left;
+			font-family: times new roman, serif;
+			font-size: 125%;
+			color:white;
+
+		}
+		p.b{
+			text-align: justify;
+			font-family: times new roman,serif;
+			font-size: 125%;
+			color:white;
+
+		}
+		p.c{
+			text-align: justify;
+			font-family: times new roman,serif;
+			font-size: 125%;
+			color:white;
+
+		}
+		.ourteam{
+	background: #f5f5f5;
+}
+
+.ourteam_wrapper .team{
+	display: flex;
+	justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1.team{
+	margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member{
+	width: 100%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 120%;
+	color: white;
+	text-align: left;
+}
+
+.ourteam_wrapper .team_member img{
+	width: 60%;
+	display: block;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_member:hover img{
+	transform: scale(1.1);
+		}
+		.main_container{
+	position: relative;
+}
+img{
+	border-radius: 50%;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	background: #090f1b;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 0 25px;
+}
+
+.navbar .inner_navbar{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar .hamburger{
+	display: none;
+}
+
+.navbar .logo a{
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.navbar .logo a span{
+	color: #5bd485;
+}
+
+.navbar .menu ul{
+	display: flex;
+}
+
+.navbar .menu ul li a{
+	width: 120px;
+	margin-right: 10px;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	border-radius: 25px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all 0.2s ease;
+}
+
+.navbar .menu ul li:last-child a{
+	margin-right: 0;	
+}
+
+.navbar .menu ul li a:hover,
+.navbar .menu ul li a.active{
+	background: #5bd485;
+}
+
+.main_container{
+	margin-top: 60px;
+	padding: 25px;
+}
+
+.main_container .content{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.main_container .content .item_wrap{
+	width: 50%;
+	padding: 10px;
+}
+
+.main_container .content .item_wrap .item{
+	padding: 25px;
+	background: #fff;
+	line-height: 22px;
+}
+
+@media (max-width: 992px){
+	.navbar{
+		height: 100px;
+		padding: 12px;
+	}
+	.navbar .inner_navbar{
+		flex-direction: column;
+	}
+	.main_container{
+		margin-top: 100px;
+	}
+}
+
+@media (max-width: 728px){
+	.navbar{
+		height: 60px;
+	}
+	.navbar .inner_navbar{
+		flex-direction: row;
+	}
+	.main_container{
+		margin-top: 60px;
+	}
+	.navbar .menu ul{
+		position: absolute;
+		top: 60px;
+		left: 0;
+		display: block;
+		background: #090f1b;
+		width: 100%;
+	}
+	.navbar .menu ul li{
+		padding: 10px;
+	}
+	.navbar .menu ul li a{
+		width: 100%;
+		padding: 12px;
+	}
+	.navbar .hamburger{
+		display: block;
+		position: absolute;
+		top: 15px;
+		right: 25px;
+		font-size: 24px;
+		color: #fff;
+		cursor: pointer;
+		transition: all 0.2s ease;
+	}
+	.navbar .hamburger:hover{
+		color: #5bd485;
+	}
+	.navbar .menu{
+		display: none;
+	}
+	.navbar .menu.active{
+		display: block;
+	}
+	.main_container .content .item_wrap{
+		width: 100%;
+	}
+}
+
+		
+	</style>
+</head>
+<body>
+	 <div class="wrapper">
+	<div class="navbar">
+		<div class="inner_navbar">
+			
+			<div class="menu">
+				<ul>
+					<li><a href="intro.html" class="active">Home</a></li>
+					<li><a href="About.html">About</a></li>
+					<li><a href="#">Contact</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		</div>
+		</div>
+		<div class="hamburger">
+			<i class="fas fa-bars"></i>
+		</div>
+	</div>
+		
+
+	<br><br><br><br><br>
+	<h1>DEFENCE </h1>
+	<br>
+	<p class="a">People who are passionate about serving the nation and wish to contribute towards maintaining national peace can opt for a career in the Indian Army. The main objective of the Indian army is to maintain national peace and security by defending the country from external threats and attacks.It holds a <b>GFP rank of 4</b> and is thus, one of the largest armed forces of the world.The zeal, enthusiasm, and desire to serve the nation can be fulfilled by joining Indian army.</p>
+	<br>
+	<br>
+	<h2>HOW TO JOIN INDIAN ARMY AFTER CLASS 12 ?</h2><br><br>
+	<ol >
+		<li>Candidates who have passed the class 12 exams or its equivalent are 16.5 to 19 years of age can apply for Indian Army Entries through National Defence Academy (NDA).</li>
+		<li>Candidates will have to undergo 3 years of training at NDA and one year at IMA to get placed in the Indian Army.</li>
+		<li>Entry in the NDA will be based on entrance exam that is conducted twice a year i.e. NDA I and NDA II.</li>
+		<li>Once the candidates have cleared the written exam, they are called for SSB interview and medical assessment round.</li>
+		<li>Final selections are done on the basis of in NDA written exam, performance in SSB interview and reports in the medical assessment.</li>
+
+	</ol>
+	<br>
+	
+	<h2>SCHEME OF NDA ENTRANCE EXAM</h2><br><br>
+	<p class="b">The subjects of the written examination, the time allowed and the maximum marks allotted to each subject will be as follows:</p>
+	<ul class="b">
+		<li>Mathematics (01) – 2-½ Hours (300 Marks)</li>
+		<li>General Ability Test (02) – 2-½ Hours (600 Marks)</li>
+	</ul>
+	<p class="c"><b>Total 900 Marks</b> <br> The question papers (Test Booklets) of Mathematics and of General Ability Test will be set bilingually in Hindi as well as in English</p>
+	<br><br>
+	<img src="image/wp2869455.jpg" align="right" height="300"><br>
+	
+		<h2>NATIONAL DEFENCE ACADEMY (NDA)</h2><br><br>
+		
+
+		<p class="d">The National Defence Academy (NDA) is the joint defence service training institute of the Indian Armed Forces, where cadets of the three services i.e. <b>the Indian Military Service</b> ,<b> the Indian Naval Service</b> and <b>the Indian Air Force Service</b> train together before they go on to respective service academy for further pre-commission training. The NDA is located in Khadakwasla, Pune, Maharashtra.It is the first tri-service academy in the world.</p>
+	
+	
+		
+	<br><br><br>
+	<h2>WORK DESCRIPTION</h2><br><br>
+	<ul>
+		<li>Make a contribution towards nation building</li>
+		<li>Support in maintaining internal security of the country</li>
+		<li>Manage security interventions and secure the border</li>
+		<li>Plan maneuvers, assign duties and communicate effectively with other staff</li>
+		<li>Take on specialist duties and skills such as engineering, air traffic control, training and administration and many more</li>
+	</ul><br><br><br>
+	<h2>NOTABLE ALUMNI</h2><br><br>
+	
+		<div class="ourteam_wrapper">
+			<div class="team-1 team">
+				<div class="team_member">
+					<a href="https://en.wikipedia.org/wiki/Bipin_Rawat" target="_blank"><img src="image/CDS-Bipin-Rawat-PTI-750.jpg"></a><br>
+					General Bipin Rawat
+					<br>
+					<b>INDIAN ARMY</b>
+				</div>
+				<div class="team_member">
+					<a href="https://en.wikipedia.org/wiki/Birender_Singh_Dhanoa" target="_blank"><img src="image/ACM_BS_Dhanoa.jpg"></a><br>
+					Air Chief Marshal Birender Singh Dhanoa<br>
+					<b>INDIAN AIR FORCE</b>
+				</div>
+				<div class="team_member">
+					<a href="https://en.wikipedia.org/wiki/Karambir_Singh" target="_blank"><img src="image/Admiral_Karambir_Singh,_PVSM,_AVSM,_ADC.jpg" ></a><br>
+					Admiral Karambir Singh
+					<br><b>INDIAN NAVY</b>
+				</div>
+			</div>
+		
+		</div>
+		<br><br>
+	
+	
+
+
+
+
+
+
+
+</body>
+</html>
