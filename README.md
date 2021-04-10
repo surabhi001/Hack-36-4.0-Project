@@ -8,6 +8,7 @@
 ## Introduction:
 Theme: EDUCATION<br>
 Class 12th exams are about to get over but you are still juggling with the career decision then you are in a critical mess. Through this project, we wish to show some interesting and lucrative career options in India apart from prevailing career myths coming from generations where we run behind like career option of engineering, medical or civil servants .So, the Major career options which are offered by our education system apart from engineering or medical sciences are Fashion Designing, Defence, Animation and Music.
+<br><br>The content for this project begins from Intro page and through this you can explore the other career options mentioned above.
 
   
   
