@@ -1,0 +1,89 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Career tips on music after 12th</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+ </head>
+ <body >
+    <style>
+        
+        h1{
+            color:rgb(245, 29, 137);
+        }
+        ul{
+            color:rgb(0, 26, 255);
+        }
+        p{
+            color:rgb(15, 75, 253);
+        }
+        
+    </style>
+    <h1 style= "text-align:center"><b><u>MUSIC</u></b></h1>
+    
+     <p style="color: rgb(58, 51, 153);"><b>Music is the language of the heart. Remember when you dreamt of being a musician, but those thoughts vanished because you didn't know how to do that?<br>
+     Here, we provide you some of the best tips for your music career right after your 12th class.</b></p>
+     <h1><b><u>COURSES AND DURATION</u></b></h1>
+     <p>
+         After completing class 12th, any student can do the followig courses in music:
+         <ul><b>
+             <li>Three courses are available on Bachelor's level - B.A.(Music), B.F.A.(Music), B.P.A(Music).<br>
+            These degree courses ae of <b>three years</b> duration conducted by various art schools in India.</li><br>
+            <li>There are also Diploma and Certificate courses in Music.</li><br>
+            <li>Master's in Music, M.Phil(Music), Ph.D. in Music are some of the higher degree courses.</li>
+        </b></ul>
+        </p>
+       <p> A student can select Vocal or Instruments for his/her music training depending upon his/her own interest.
+     </p>
+     <h1><b><u>VARIOUS JOB FIELDS IN MUSIC</u></b></h1>
+     <p>After the completio of the music course, a studentcan get a job in the music industry, films, production houses,
+          TV channels, and advertisement companies. They can apply and easily get work as:
+          <ul><b>
+              <li>Composer</li>
+              <li>Music director</li>
+              <li>Producer</li>
+              <li>Music editor</li>
+              <li>Music supervisor</li>
+              <li>Music publisher</li>
+              <li>Song writer</li>
+              <li>Recording engineer</li>
+              <li>Instrumentalist</li>
+              <li>Studio manager</li>
+          </b></ul> 
+     </p>
+     <h1><b><u>TYPES OF MUSIC</u></b></h1>
+     <p>
+         <ul><b>
+             <li>Jazz</li>
+             <li>Classical Music</li>
+             <li>Blues</li>
+             <li>Pop Music</li>
+             <li>Latin Music</li>
+             <li>Rock Music</li>
+             <li>Rap</li>
+             <li>Electronic Music</li>
+            </b></ul>
+     </p>
+     <h1><b><u>TOP MUSICINSTITUTES IN INDIA</u></b></h1>
+     <p>
+         Some of the colleges that provide quality education in the music stream are as follows:
+         <ul><b>
+             <li>Saraswati Music College, New Delhi</li>
+             <li>Delhi School of Music</li>
+             <li>Calcutta School of Music</li>
+             <li>College of Music and Dance, Hyderabad</li>
+             <li>Government Music College, Indore</li>
+             <li>Madras Music Academy</li>
+             <li>Madhav Music College, Gwalior</li>
+             <li>Government Music College, Chennai </li>
+             <li>Saradha Sangeetha Kalasala, Guntur</li>
+             <li>The True School of Music, Mumbai</li>
+             <li>Shankar Mahadevan Academy</li>
+            </b> </ul>
+     </p>
+     <p style="text-align:center;"><img src="https://webstockreview.net/images/clipart-frames-music-17.png " width="300" height="300" >
+    <img src="https://www.pinclipart.com/picdir/big/3-30381_png-black-and-white-download-musical-note-theatre.png" width="400" height="400">
+</p>
+     </body>
+     
+</html>
